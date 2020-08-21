@@ -5,6 +5,8 @@
 @import "nav-bar.css";
 @import "screen-header.css";
 @import "friends.css";
+@import "badge.css";
+@import "find.css";
 @import "user-component.css";
 @import "variables.css";
 
@@ -12,4 +14,8 @@ body {
   height: 1500px;
   color: #2e363e;
   font-family: "Open Sans", sans-serif;
+}
+
+.main-screen {
+  padding: 0px 25px;
 }
