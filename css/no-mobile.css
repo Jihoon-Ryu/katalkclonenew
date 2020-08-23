@@ -1,0 +1,22 @@
+#no-mobile {
+  position: absolute;
+  z-index: 99;
+  height: 100vh;
+  background-color: var(--yellow);
+  width: 100vw;
+  display: block;
+  padding-top: 220px;
+  padding-left: 100px;
+  font-size: 32px;
+  top: 0;
+}
+
+#no-mobile div {
+  display: block;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
